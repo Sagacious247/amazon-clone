@@ -1,0 +1,118 @@
+[debug] [2023-03-08T23:48:22.412Z] ----------------------------------------------------------------------
+[debug] [2023-03-08T23:48:22.420Z] Command:       /home/sagacious/.nvm/versions/node/v16.14.0/bin/node /home/sagacious/.nvm/versions/node/v16.14.0/bin/firebase emulators:start
+[debug] [2023-03-08T23:48:22.423Z] CLI Version:   11.24.1
+[debug] [2023-03-08T23:48:22.423Z] Platform:      linux
+[debug] [2023-03-08T23:48:22.424Z] Node Version:  v16.14.0
+[debug] [2023-03-08T23:48:22.425Z] Time:          Thu Mar 09 2023 00:48:22 GMT+0100 (West Africa Standard Time)
+[debug] [2023-03-08T23:48:22.426Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-08T23:48:22.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-08T23:48:22.840Z] > authorizing via signed-in user (princesagacious96@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-03-08T23:48:22.875Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  ui: Emulator UI unable to start on port 4000, starting on 4005 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4005 instead."}}
+[debug] [2023-03-08T23:48:22.883Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4005},{"address":"::1","family":"IPv6","port":4005}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project clone-4e562. This may result in unexpected behavior. 
+[debug] [2023-03-08T23:48:22.931Z] [hub] writing locator at /tmp/hub-clone-4e562.json
+[debug] [2023-03-08T23:48:23.056Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-08T23:48:23.077Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-08T23:48:23.079Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4005},{"address":"::1","family":"IPv6","port":4005}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-08T23:48:23.158Z] defaultcredentials: writing to file /home/sagacious/.config/firebase/princesagacious96_gmail_com_application_default_credentials.json
+[debug] [2023-03-08T23:48:23.441Z] Setting GAC to /home/sagacious/.config/firebase/princesagacious96_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/sagacious/.config/firebase/princesagacious96_gmail_com_application_default_credentials.json"}}
+[debug] [2023-03-08T23:48:23.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-4e562/adminSdkConfig [none]
+[debug] [2023-03-08T23:48:24.244Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-4e562/adminSdkConfig 200
+[debug] [2023-03-08T23:48:24.244Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-4e562/adminSdkConfig {"projectId":"clone-4e562","storageBucket":"clone-4e562.appspot.com"}
+[debug] [2023-03-08T23:48:24.339Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-08T23:48:24.341Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-08T23:48:24.341Z] Starting Emulator UI with command {"binary":"node","args":["/home/sagacious/.cache/firebase/emulators/ui-v1.11.4/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/sagacious/.cache/firebase/emulators/ui-v1.11.4/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-08T23:48:25.015Z] Web / API server started at 127.0.0.1:4005
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4005\n"}}
+[debug] [2023-03-08T23:48:25.016Z] Web / API server started at ::1:4005
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4005\n"}}
+[info] i  functions: Watching "/home/sagacious/amazon-clone/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/sagacious/amazon-clone/functions\" for Cloud Functions..."}}
+[debug] [2023-03-08T23:48:25.193Z] Validating nodejs source
+[debug] [2023-03-08T23:48:27.577Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-08T23:48:27.578Z] Building nodejs source
+[debug] [2023-03-08T23:48:27.581Z] Failed to find version of module node: reached end of search path /home/sagacious/amazon-clone/functions/node_modules
+[info] ✔  functions: Using node@16 from host. 
+[debug] [2023-03-08T23:48:27.594Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-08T23:48:27.608Z] Found firebase-functions binary at '/home/sagacious/amazon-clone/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-03-08T23:48:27.710Z] Error: ENOSPC: System limit for number of file watchers reached, watch '/home/sagacious/amazon-clone/functions'
+    at FSWatcher.<computed> (node:internal/fs/watchers:244:19)
+    at Object.watch (node:fs:2249:34)
+    at createFsWatchInstance (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleDir (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:567:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NodeFsHandler._addToNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:617:16)
+    at async /home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/index.js:451:21
+    at async Promise.all (index 0)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-08T23:48:27.722Z] Error: ENOSPC: System limit for number of file watchers reached, watch '/home/sagacious/amazon-clone/functions/index.js'
+    at FSWatcher.<computed> (node:internal/fs/watchers:244:19)
+    at Object.watch (node:fs:2249:34)
+    at createFsWatchInstance (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleFile (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:395:23)
+    at NodeFsHandler._addToNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:637:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-08T23:48:27.728Z] Error: ENOSPC: System limit for number of file watchers reached, watch '/home/sagacious/amazon-clone/functions/package-lock.json'
+    at FSWatcher.<computed> (node:internal/fs/watchers:244:19)
+    at Object.watch (node:fs:2249:34)
+    at createFsWatchInstance (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleFile (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:395:23)
+    at NodeFsHandler._addToNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:637:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-08T23:48:27.734Z] Error: ENOSPC: System limit for number of file watchers reached, watch '/home/sagacious/amazon-clone/functions/package.json'
+    at FSWatcher.<computed> (node:internal/fs/watchers:244:19)
+    at Object.watch (node:fs:2249:34)
+    at createFsWatchInstance (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleFile (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:395:23)
+    at NodeFsHandler._addToNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:637:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-03-08T23:48:27.982Z] Error: ENOSPC: System limit for number of file watchers reached, watch '/home/sagacious/amazon-clone/functions/node_modules'
+    at FSWatcher.<computed> (node:internal/fs/watchers:244:19)
+    at Object.watch (node:fs:2249:34)
+    at createFsWatchInstance (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleDir (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:567:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NodeFsHandler._addToNodeFs (/home/sagacious/.nvm/versions/node/v16.14.0/lib/node_modules/firebase-tools/node_modules/chokidar/lib/nodefs-handler.js:617:16)

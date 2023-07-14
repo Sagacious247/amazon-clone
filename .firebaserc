@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "champions-academy-46001",
+    "staging": "champions-academy-46001"
+  },
+  "targets": {},
+  "etags": {}
+}
